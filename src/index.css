@@ -332,3 +332,20 @@ main {
   cursor: pointer;
   color: var(--red-dark);
 }
+.title {
+  display: flex;
+  align-items: baseline;
+}
+
+.title h5 {
+  padding-left: 0.5rem;
+  color: var(--primary-500);
+  font-weight: 400;
+}
+.title h4 {
+  font-weight: 400;
+}
+.title h4,
+.title h5 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
